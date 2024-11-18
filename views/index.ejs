@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/styles/main.css">
+    <title>NBA Project</title>
+</head>
+<body>
+    <%# top of webpage %>
+    <h1 id="title">NBA Project by Victor</h1>
+    <% for (let i = 0; i < locals.teams.length; i++) {%>
+        <h2><%= locals.teams[i] %></h2>
+    <% }%>
+</body>
+</html>
