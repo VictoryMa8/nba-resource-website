@@ -5,7 +5,7 @@ import bodyParser from "body-parser";
 const app = express();
 const port = 3000;
 
-const apiKey = "e49cebc1-4004-4562-9c1e-c215490eacd2";
+const apiKey = "";
 const teamsURL = "https://api.balldontlie.io/v1/teams";
 
 app.use(express.static("public"));
